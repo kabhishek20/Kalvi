@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image, Media and Form elements</title>
+  </head>
+
+  <body>
+    <section id="contact">
+      <div class="contact-box">
+        <div class="contact-links">
+          <h2>CONTACT</h2>
+          <div class="links">
+            <div class="link">
+              <!--Iteration 1 : Add the image of linkedin logo inside the anchor tag -->
+              <a><img src="img/linkedin.png" alt="linkedin" /></a>
+            </div>
+            <div class="link">
+              <!--Iteration 2 : Add the image of github logo inside the anchor tag -->
+              <a><img src="img/github.png" alt="github" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form>
+            <div class="form-item">
+              <!--Iteration 3 : Insert a form element which should be compulsory and ask the name -->
+              <input type="text" name="sender" required />
+              <label>Name :</label>
+            </div>
+            <div class="form-item">
+              <!--Iteration 4 : Insert a required form element asking for the email -->
+              <input type="text" name="email" required />
+              <label>Email :</label>
+            </div>
+            <div class="form-item">
+              <!--Iteration 5 : Insert a required form element within which one can enter the message -->
+              <textarea class="" name="message" required></textarea>
+              <label>Message :</label>
+            </div>
+
+            <!--Iteration 6 : Add a send button and give it a class of submit-btn -->
+            <button class="submit-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

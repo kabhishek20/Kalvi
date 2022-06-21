@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+:root {
+  --white: #fff;
+  --blue: #232f3e;
+  --orange: #ff9900;
+  --dark-orange: #e08600;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+button {
+  /*Iteration 1 : Give the buttons a padding of 0.5rem and 1 rem. Set the font size to 18px and the weight as 600 */
+  
+  font-family: inherit;
+  color: var(--white);
+  background-color: inherit;
+  border: 1px hidden;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.signin-button {
+  /*Iteration 2 : Give the signin button a 2px solid orange button */
+
+  background-color: var(--orange);
+  border-radius: 10px;
+  color: var(--blue);
+}
+
+.signin-button:hover {
+  /*Iteration 3 : On hovering the text color of signin button should change from blue to white */
+
+  background-color: var(--orange);
+  border-radius: 10px;
+}
+
+.login-button {
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+}
+
+.login-button:hover {
+  border: 2px solid var(--orange);
+  background-color: var(--orange);
+}
+
+section {
+  /*Iteration 4 : Give this section a padding of 1rem at the top and bottom and 5vw at the left and right respectively */
+  
+}
+
+.label h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Montserrat", serif;
+}
+
+navbar {
+  /*Iteration 5 : Set the navigation bar width to 100% and give it a padding of 1 rem and 5vw respectively */
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--blue);
+}
+
+navbar .text-logo {
+  font-size: 28px;
+  color: var(--white);
+  font-weight: 600;
+  cursor: default;
+}
+
+navbar .big-screen-nav {
+  cursor: defalut;
+}
+
+navbar li {
+  display: flex;
+  /*Iteration 6 : Align the items of navbar horizontally */
+  
+}
+
+navbar a {
+  padding: 0.75rem;
+  font-size: 18px;
+}
+
+navbar button {
+  /*Iteration 7 : These buttons hould have a margin of 0.5rem at left and right and 0 at top and bottom both */
+ 
+}
+
+navbar .small-screen-nav i {
+  font-size: 28px;
+  color: white;
+}
+
+.browsing-history {
+  /*Iteration 8 : Display all the items of browsing history in a single line with the elements evenly spaced */
+  
+}
+
+.item {
+  text-align: center;
+  margin: 1rem;
+}
+
+.item .item-image {
+  /*Iteration 9 : The image should have a height and width of 200 px respectively and the border radius should be 5 px */
+  
+  object-fit: cover;
+  transition: 0.2s ease-in-out;
+}
+
+.item .item-image:hover {
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.footer {
+  background-color: var(--blue);
+}
+
+.footer .footer-text {
+  color: var(--white);
+  text-align: center;
+  padding: 2rem;
+}
+
+.links {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.links ul {
+  margin: 0.5rem;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links li h1 {
+  cursor: default;
+  font-size: 16px;
+}
+
+.links li a {
+  font-size: 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'ttnorms';
+	src: url('fonts/TTNorms-Regular.otf');
+}
+
+body {
+	/*Iteration 1 : Set the background color as #723c3c , text color as white and font family as ttnorms.*/
+	background-color: #723c3c;
+	font-family: 'ttnorms';
+	color: white;
+}
+
+h1 {
+	/*Iteration 2 : Make the text centre aligned with a padding of 20px at the top */
+	text-align: center;
+	padding-top: 20px;
+}
+
+nav,
+nav a {
+	/*Iteration 3 : Set the font size as 1.03em with the word spacing as 50px */
+	font-size: 1.03em;
+	word-spacing: 50px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #161617;
+}
+
+#socialMedia {
+	width: 0;
+	height: auto;
+	background-color: transparent;
+	float: right;
+}
+
+#socialMedia ol li {
+	list-style-type: none;
+}
+
+#insta {
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -1px -2px;
+	/*Iteration 4 : Set the width and height as 48px and 47px respectively */
+	width: 48px;
+	height: 47px;
+	margin-top: 160px;
+}
+
+#tumblr {
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -62px 0;
+	width: 51px;
+	height: 50px;
+}
+
+#youtube {
+	background: url(https://i.imgur.com/SzHmMWr.png) no-repeat -124px 0;
+	width: 51px;
+	height: 50px;
+}
+
+#homePagebox {
+	/*Iteration 5 : Set the homepage box at the centre horizontally. Give the box shadow of 0 2px 2px 2px with a color of #888888 */
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 2px 2px 2px #888888;
+	width: 1000px;
+	height: 700px;
+	background-color: white;
+}
+
+#anthony {
+	text-align: center;
+}
+
+#anthony img {
+	margin-top: 80px;
+}
+
+.wrapper {
+	margin: auto;
+	/*Iteration 6 : set the width to 80% */
+	width: 80%;
+}
